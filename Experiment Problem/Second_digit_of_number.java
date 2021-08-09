@@ -18,9 +18,9 @@ public class Second_digit_of_number {
 			
 			
 			System.out.println();
-			System.out.print("First number is : " +n);
+			
 			int n2=n%10;
-			System.out.print("First number is : " +n2);
+			System.out.print("Second number is : " +n2);
 
 	}
 
