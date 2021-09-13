@@ -1,1 +1,2 @@
-
+Array list is only used when we have to remove the number from between and always use areverse loop while removing the array list .
+if we want to insert the element at specific location we can use array list .
