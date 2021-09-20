@@ -1,25 +1,29 @@
- /* sample program to declare object 
-   and method of a class */
-public class object {              // class declared as object
+package hello_world;
+
+public class object {
 	
-	public void run ()                 // class method as run
+	String type;
+	int time;
+	String color;
+	
+	public object(int age)
 	{
-	   System.out.println("I am running");	
+		System.out.println("This object is from time "  +age);
 	}
 	
-	public void eat()                   // another class method eat 
+	public object(String name)
 	{
-		System.out.println("I am eating");
+		System.out.println("This object name is "  +name);
 	}
 	
-	public static void main(String[] args)       // main method
-	{
-		System.out.println("Below mentioned are method call with object");
-		object bruzo=new object();             // creating object bruzo 
-		bruzo.run();                           // calling run method with object name bruzo 
-		bruzo.eat();                           // // calling eat method with object name bruzo 
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		object myobj=new object("Empty");
+		object myobj2=new object(19);
 		
+		
+		
+
 	}
 
-	
 }
