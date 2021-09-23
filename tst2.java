@@ -1,3 +1,6 @@
+
+//print the sum of range digits
+
 import java.util.Scanner;
 
 public class tst2 {
