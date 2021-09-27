@@ -1,0 +1,4 @@
+module project_java {
+	
+	
+}
